@@ -1,7 +1,7 @@
 ﻿Console.Write("a = ");
-double a = Convert.ToDouble(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.Write("b = ");
-double b = Convert.ToDouble(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 if (a > b) 
 {
     Console.Write("max = " + a);
